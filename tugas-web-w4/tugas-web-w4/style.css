@@ -1,0 +1,74 @@
+body {
+    font-family: arial;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+/* logo */
+#logo img {
+    width: 80px;
+}
+
+/* highlight */
+#highlight img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* subtitle */
+#subtitle img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* our client */
+#client img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* testimonial */
+.testi-box {
+    background: #808080;
+    color: white;
+}
+
+.testi-box .avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* subscribe */
+#subscribe {
+    background: #e91e8c;
+    color: white;
+}
+
+#subscribe .btn {
+    background: #c0186f;
+    color: white;
+    margin-left: -4px;
+}
+
+/* footer */
+#footer {
+    background: #222;
+    color: white;
+}
+
+#footer a {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+#footer img {
+    width: 24px;
+}
